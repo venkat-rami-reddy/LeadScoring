@@ -34,59 +34,44 @@
     </actionOverrides>
     <deploymentStatus>Deployed</deploymentStatus>
     <description>This object tracks the lead scoring rules to help prioritize leads based on who they are and what they do.</description>
-    <enableActivities>false</enableActivities>
-    <enableEnhancedLookup>false</enableEnhancedLookup>
-    <enableFeeds>false</enableFeeds>
     <enableHistory>true</enableHistory>
     <enableReports>true</enableReports>
     <fields>
         <fullName>Active__c</fullName>
         <defaultValue>true</defaultValue>
         <description>In-Active rules are NOT evaluated when a lead or campaign member is saved.</description>
-        <externalId>false</externalId>
         <inlineHelpText>In-Active rules are NOT evaluated when a lead or campaign member is saved.</inlineHelpText>
         <label>Active</label>
-        <trackHistory>false</trackHistory>
         <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Campaign__c</fullName>
         <description>Selecting a campaign limits the rule to fire only for members of this campaign.  Leaving this blank selects all campaigns.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Leave blank to select all campaigns</inlineHelpText>
         <label>Filter By Campaign (optional):</label>
         <referenceTo>Campaign</referenceTo>
         <relationshipLabel>Lead Scoring Rules</relationshipLabel>
         <relationshipName>Lead_Scoring_Rules</relationshipName>
-        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Field_Label__c</fullName>
         <description>This contains the more readable field label of the Field name.  Note this approach doesn&apos;t solve for an org has two fields with the same label.  There&apos;s a chance the wrong field would be used.</description>
-        <externalId>false</externalId>
         <label>Field Label</label>
         <length>255</length>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
         <type>Text</type>
-        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Field_Name__c</fullName>
         <description>Field name used for criteria</description>
-        <externalId>false</externalId>
         <inlineHelpText>Field name used for criteria</inlineHelpText>
         <label>Field Name</label>
         <length>255</length>
         <required>true</required>
-        <trackHistory>false</trackHistory>
         <type>Text</type>
-        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Operator__c</fullName>
-        <externalId>false</externalId>
         <label>Operator</label>
         <picklist>
             <picklistValues>
@@ -127,25 +112,19 @@
             </picklistValues>
             <sorted>false</sorted>
         </picklist>
-        <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
     <fields>
         <fullName>Score_Change__c</fullName>
         <description>Enter the number of points to add to lead score.  Negative numbers are subtracted from Lead Score.  If Rule Type = Campaign Member, then points count towards Campaign Score on both the lead and Campaign Member.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enter the number of points to add to lead score.  Negative numbers are subtracted from Lead Score.  If Rule Type = Campaign Member, then points count towards Campaign Score on both the lead and Campaign Member.</inlineHelpText>
         <label>Points</label>
         <precision>18</precision>
-        <required>false</required>
         <scale>0</scale>
-        <trackHistory>false</trackHistory>
         <type>Number</type>
-        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Type__c</fullName>
-        <externalId>false</externalId>
         <label>Rule Type</label>
         <picklist>
             <picklistValues>
@@ -158,18 +137,13 @@
             </picklistValues>
             <sorted>false</sorted>
         </picklist>
-        <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
     <fields>
         <fullName>Value__c</fullName>
-        <externalId>false</externalId>
         <label>Value</label>
         <length>255</length>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
         <type>Text</type>
-        <unique>false</unique>
     </fields>
     <label>Lead Scoring Rule</label>
     <listViews>
@@ -188,7 +162,6 @@
     </listViews>
     <nameField>
         <label>Lead Scoring Rule Name</label>
-        <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
     <pluralLabel>Lead Scoring Rules</pluralLabel>

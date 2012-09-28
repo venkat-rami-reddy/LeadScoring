@@ -32,82 +32,66 @@
     <fieldLevelSecurities>
         <editable>true</editable>
         <field>CampaignMember.Campaign_Score__c</field>
-        <hidden>false</hidden>
     </fieldLevelSecurities>
     <fieldLevelSecurities>
         <editable>true</editable>
         <field>Contact.Campaign_Score__c</field>
-        <hidden>false</hidden>
     </fieldLevelSecurities>
     <fieldLevelSecurities>
         <editable>true</editable>
         <field>Contact.Lead_Score__c</field>
-        <hidden>false</hidden>
     </fieldLevelSecurities>
     <fieldLevelSecurities>
         <editable>true</editable>
         <field>Contact.Total_Lead_Score__c</field>
-        <hidden>false</hidden>
     </fieldLevelSecurities>
     <fieldLevelSecurities>
         <editable>true</editable>
         <field>Lead.Campaign_Score__c</field>
-        <hidden>false</hidden>
     </fieldLevelSecurities>
     <fieldLevelSecurities>
         <editable>true</editable>
         <field>Lead.Lead_Priority__c</field>
-        <hidden>false</hidden>
     </fieldLevelSecurities>
     <fieldLevelSecurities>
         <editable>true</editable>
         <field>Lead.Lead_Score__c</field>
-        <hidden>false</hidden>
     </fieldLevelSecurities>
     <fieldLevelSecurities>
         <editable>true</editable>
         <field>Lead.Total_Lead_Score__c</field>
-        <hidden>false</hidden>
     </fieldLevelSecurities>
     <fieldLevelSecurities>
         <editable>true</editable>
         <field>LeadScoringRule__c.Active__c</field>
-        <hidden>false</hidden>
     </fieldLevelSecurities>
     <fieldLevelSecurities>
         <editable>true</editable>
         <field>LeadScoringRule__c.Campaign__c</field>
-        <hidden>false</hidden>
     </fieldLevelSecurities>
     <fieldLevelSecurities>
         <editable>true</editable>
         <field>LeadScoringRule__c.Field_Label__c</field>
-        <hidden>false</hidden>
     </fieldLevelSecurities>
     <fieldLevelSecurities>
         <editable>true</editable>
         <field>LeadScoringRule__c.Field_Name__c</field>
-        <hidden>false</hidden>
     </fieldLevelSecurities>
     <fieldLevelSecurities>
         <editable>true</editable>
         <field>LeadScoringRule__c.Operator__c</field>
-        <hidden>false</hidden>
     </fieldLevelSecurities>
     <fieldLevelSecurities>
         <editable>true</editable>
         <field>LeadScoringRule__c.Score_Change__c</field>
-        <hidden>false</hidden>
     </fieldLevelSecurities>
     <fieldLevelSecurities>
         <editable>true</editable>
         <field>LeadScoringRule__c.Type__c</field>
-        <hidden>false</hidden>
     </fieldLevelSecurities>
     <fieldLevelSecurities>
         <editable>true</editable>
         <field>LeadScoringRule__c.Value__c</field>
-        <hidden>false</hidden>
     </fieldLevelSecurities>
     <layoutAssignments>
         <layout>LeadScoringRule__c-Lead Scoring Rule Layout</layout>
